@@ -9,4 +9,21 @@ git clone https://github.com/dkkinyua/data-science.git
 
 ```
 
+To install the packages required, run:
+```bash
+
+pip install -r requirements.txt
+
+```
+
+To run Jupyter Notebooks in your computer, run the following command in your terminal
+
+```bash
+
+jupyter notebook
+
+```
+
+
+
 Happy hacking!
