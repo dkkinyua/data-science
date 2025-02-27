@@ -8,6 +8,7 @@ Numpy shape and reshape functionalities
 
 2. reshape.
     reshape can be used to reshape ndarray into 2D and 3D arrays and many more dimensions. It can also be used to flatten n-darrays into 1D arrays.
+    NOTE: reshape() doesn't change data on the original array
     Usage:
         np1.reshape(dimensions, no of elements)
 
@@ -34,3 +35,7 @@ print(np3.shape)
 np4 = np1.reshape(-1)
 print(np4)
 print(np4.shape)
+
+# This will originally changes the shape of the original array while reshape() doesn't
+np1.shape = (3,4)
+print(np1)
